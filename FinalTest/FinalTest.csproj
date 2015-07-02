@@ -39,8 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BalanceNégativeDétectée.cs" />
     <Compile Include="Calculatrice.cs" />
+    <Compile Include="CompteBancaire.cs" />
+    <Compile Include="CompteCréé.cs" />
+    <Compile Include="DépotRéalisé.cs" />
+    <Compile Include="RetraitRéalisé.cs" />
+    <Compile Include="IEvenementMetier.cs" />
     <Compile Include="IOperation.cs" />
+    <Compile Include="Montant.cs" />
     <Compile Include="Multiplication.cs" />
     <Compile Include="Nombres.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
