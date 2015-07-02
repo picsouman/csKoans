@@ -71,7 +71,7 @@ namespace FinalTest
         private IEvenementMetier AddMontant(Montant m, DateTime date)
         {
             this.Montant.Value += m.Value;
-            if (this.Montant.Value + m.Value < 0)
+            if (this.Montant.Value < 0)
             {
                 Montant nm = new Montant(this.Montant.Value + m.Value);
                 return new BalanceNégativeDétectée(this.CurrentAccount, nm, date);
